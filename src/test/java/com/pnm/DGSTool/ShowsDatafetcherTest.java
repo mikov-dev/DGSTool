@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest(classes = {ShowsDataFetcher.class})
 @EnableDgsTest
-class ShowsDatafetcherTest {
+class ShowsDataFetcherTest {
 
     @Autowired
     DgsQueryExecutor dgsQueryExecutor;
